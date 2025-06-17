@@ -8,7 +8,7 @@ def sub_string_count(string,sub_string):
         if sub_string==string[start:end]:
             count+=1
         start+=1
-        end+=1
+        end+=10
     return count
 string=input().strip()
 sub_string=input().strip()
