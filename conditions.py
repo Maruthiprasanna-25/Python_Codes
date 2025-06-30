@@ -29,3 +29,21 @@ elif n<40:
     print("adult")
 else:
     print("senior citizen")
+
+# This script assigns a grade based on the marks entered by the user.
+# It prompts the user for their marks and prints the corresponding grade.
+marks=int(input("Enter your marks: "))
+if marks<50:
+    print("F")
+elif marks==50 or marks<60:
+    print("E")
+elif marks==60 or marks<70:
+    print("D")
+elif marks==70 or marks<80:
+    print("C")
+elif marks==80 or marks<90:
+    print("B")
+elif marks==90 or marks<=100:
+    print("A")
+else:
+    print("Invalid marks entered.")
