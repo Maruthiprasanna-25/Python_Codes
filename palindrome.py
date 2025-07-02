@@ -4,6 +4,6 @@ def is_palindrome(s):
     if list(s)==list(re):
         return "Palindrome"
     else:
-        return "NotPalindrome"
+        return "Not Palindrome"
 res=is_palindrome(str)
 print(res)
